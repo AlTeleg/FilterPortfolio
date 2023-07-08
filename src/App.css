@@ -1,0 +1,51 @@
+.proj-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    height: 100%;
+    margin: 20px 10%;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.proj-img {
+    height: 100%;
+    width:100%;
+    object-fit:cover;
+}
+
+.proj-img:hover {
+    height: 100%;
+    width:100%;
+    object-fit:cover;
+    transform: scale(1.035);
+    cursor: pointer;
+}
+
+.proj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolbar {
+    margin: 20px 10%;
+}
+
+.projects-div {
+    height: 100%;
+    width: 1200px;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    margin:auto;
+}
+
+body {
+    background-color: black;
+}
